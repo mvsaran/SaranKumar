@@ -98,16 +98,6 @@ Java • JavaScript • TypeScript • Python • SQL • JSON • YAML • XML
 
 ---
 
-## 🔥 Additional Metrics (Uploaded Card)
-
-<div align="center">
-
-<img src="/mnt/data/9edaf79a-14d8-45ec-bdca-fe34f05c3437.png" width="650"/>
-
-</div>
-
----
-
 ## 💡 Key Principles
 
 ```
