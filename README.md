@@ -16,81 +16,76 @@
 
 ## 🔍 About Me
 
-I'm a passionate and **results-driven SDET** with hands-on experience in building automation frameworks for **UI, API, Mobile, and AI-driven testing**. I enjoy solving complex testing challenges and constantly explore modern tools, patterns, and intelligent automation techniques.
+I'm a passionate and **results-driven SDET** with hands-on experience in designing, developing, and maintaining scalable **UI, API, Mobile, and AI-driven automation frameworks**. I love solving complex testing challenges and continuously evolve with new tools, patterns, and technologies.
 
 > **"Quality is not just a checkpoint — it's a mindset."**
 
-Always open to **collaboration, innovation, and continuous learning** 🚀
+Always open to **collaboration**, **innovation**, and **continuous learning** 🚀
 
 ---
 
-### 🚀 Tech Stack & Tools
+## 🚀 Tech Stack & Tools
 
-🧪 Automation Tools
+### 🧪 **Automation Tools**
+🟩 Selenium • 🔵 Cypress • 🎭 Playwright • 📱 Appium • 🌐 REST Assured
 
-🟩 Selenium  •  🔵 Cypress  •  🎭 Playwright  •  📱 Appium  •  🌐 REST Assured
+### 🧩 **Frameworks**
+🌱 **BDD (Cucumber)** • 🧱 **Page Object Model (POM)** • 🧪 **TestNG** • 🔰 **JUnit** • ☕ **Mocha** • 🧷 **Jest**  
+📊 **Data-Driven Frameworks** • 🧩 **Hybrid Automation Frameworks** • 🔧 **TestNG-based Custom Frameworks**
 
-🧩 Frameworks
+### 🔗 **API Testing**
+📬 Postman • 📘 Swagger • 💻 REST Client (VSCode) • 🔐 OAuth • 📑 Schema Validation  
+🌐 **REST Assured**
 
-🌱 BDD (Cucumber)  •  🧱 Page Object Model (POM)  •  🧪 TestNG  •  🔰 JUnit  •  ☕ Mocha  •  🧷 Jest
-📊 Data-Driven Frameworks  •  🧩 Hybrid Automation Frameworks  •  🔧 TestNG-based Frameworks
+### 🤖 **AI & Modern Tech**
+🤖 AI Agents • 🧠 GitHub Copilot • 🛰 MCP Server • ✍️ Prompt Engineering
 
-🔗 API Testing
+### ⚙️ **CI/CD & DevOps**
+🔗 Git • ⚡ GitHub Actions • 🛠 Jenkins • 🐳 Docker • 🔥 Maven • 🟨 Node.js
 
-📬 Postman  •  📘 Swagger  •  💻 REST Client (VSCode)  •  🔐 OAuth  •  📑 Schema Validation
-🌐 REST Assured
-
-🤖 AI & Modern Tech
-
-🤖 AI Agents  •  🧠 GitHub Copilot  •  🛰 MCP Server  •  ✍️ Prompt Engineering
-
-⚙️ CI/CD & DevOps
-
-🔗 Git  •  ⚡ GitHub Actions  •  🛠 Jenkins  •  🐳 Docker  •  🔥 Maven  •  🟨 Node.js
-
-💻 Languages
-
-☕ Java  •  🟨 JavaScript  •  🔵 TypeScript  •  🐍 Python  •  🗄 SQL  •  📄 JSON  •  📘 YAML  •  🧾 XML
+### 💻 **Languages**
+☕ Java • 🟨 JavaScript • 🔵 TypeScript • 🐍 Python • 🗄 SQL • 📄 JSON • 📘 YAML • 🧾 XML
 
 ---
 
 ## 🧪 Currently Practicing
 
-- Deep-diving into **Playwright** automation  
-- Building **AI-powered autonomous test flows**  
-- Designing **modular, scalable frameworks**  
-- Real-world **API & contract testing**  
-- Performance testing with **JMeter**  
+- 🎯 Deep-diving into **Playwright** with JavaScript/TypeScript  
+- 🤖 Integrating **AI agents** into intelligent test flows  
+- 🏗 Building **modular and scalable frameworks**  
+- 🌐 Applying **real-world API testing** & contract validation  
+- 🔥 Strengthening **performance testing** with JMeter  
 
 ---
 
 ## 🤝 Let's Collaborate
 
-- 🚀 Modern Automation Frameworks  
-- 🤖 AI-Driven Testing & Autonomous Agents  
-- 🔧 Open-source QA Utilities  
-- ✍️ Technical Writing & Blogs  
+I’m open to contributions and discussions around:
 
-### Connect with me  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saran-kumar-a69775215)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mvsaran)
+- 🚀 Automation Framework Architecture  
+- 🤖 AI-Driven Testing & Autonomous Agents  
+- 🔧 Open-source QA Tools  
+- ✍️ Technical Writing & Knowledge Sharing  
 
 ---
 
 ## 📂 Featured Projects
 
-### 🌟 Selenium Projects
+### 🌟 **Selenium Projects**
 - 🔹 Yatra Lowest Fare Automation  
-- 🔹 Hybrid Selenium Framework with Docker & Grid  
+- 🔹 Selenium Hybrid Framework with Docker, Grid & Extent Reports  
 
-### ⚡ Cypress Projects
+### ⚡ **Cypress Projects**
 - 🔹 AI-Augmented Cypress E2E Framework  
-- 🔹 Visual Regression Testing (ClearTrip)  
-- 🔹 Cypress API Testing + OAuth + Schema Validation  
+- 🔹 ClearTrip Visual Regression – Cypress  
+- 🔹 Cypress API Testing (Intercept + OAuth + Schema Validation)  
+- 🔹 Cypress E2E Framework with GitHub Actions  
 
-### 🎭 Playwright Projects
+### 🎭 **Playwright Projects**
 - 🔹 Playwright Automation Framework (JS/TS)  
-- 🔹 AI-Powered Playwright + MCP Server  
+- 🔹 AI-Powered Playwright + MCP Server Framework  
+
+Explore all repositories on **[GitHub](https://github.com/mvsaran)** 🚀
 
 ---
 
@@ -120,15 +115,16 @@ Always open to **collaboration, innovation, and continuous learning** 🚀
 
 ## 🎓 My Philosophy
 
-> In a rapidly evolving tech world, **QA is not about finding bugs — it’s about enabling trust, stability, and confidence in software delivery.**
+> In today's rapidly evolving tech world, **QA is not just about finding bugs — it's about enabling trust, stability, and confidence in software delivery.**  
+Every test is a step toward excellence. Every framework is a foundation for future success.
 
 ---
 
 <div align="center">
 
-### ⭐ If you find my projects helpful, please consider giving them a star!
+### ⭐ If you find my projects useful, consider giving them a star!
 
-**Let’s build better tests, together! 🚀**
+**Let’s build better tests, together. 🚀**
 
 [🔗 LinkedIn](https://www.linkedin.com/in/saran-kumar-a69775215) •  
 [💻 GitHub](https://github.com/mvsaran) •  
