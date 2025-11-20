@@ -116,13 +116,19 @@ Explore all my repositories and contributions on [**GitHub**](https://github.com
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Metrics
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
+![mvsaran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mvsaran&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mvsaran&layout=compact&theme=tokyonight)
+
+### 🔥 Contributions & Activity
+- ⭐ **10+** Featured Automation Frameworks
+- 🚀 **100+** Commits to Open Source & Personal Projects
+- 🤝 **Active** Collaborator & Mentor
+- 📚 **Continuous** Learner & Tech Enthusiast
 
 </div>
 
