@@ -1,84 +1,334 @@
-<h1 align="center">Hi, I'm Saran Kumar 👋</h1>
-<h3 align="center">💻 Senior SDET | Test Automation Engineer | Quality Advocate</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saran Kumar - Senior SDET</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<p align="center">🔍 Passionate about building <strong>scalable</strong> and <strong>intelligent test automation solutions</strong>.</p>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
 
----
+        .banner {
+            width: 100%;
+            max-width: 1200px;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 58, 138, 0.95) 100%);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            position: relative;
+        }
 
-### 🚀 Tech Stack & Tools
+        .animated-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite;
+        }
 
-**🧪 Automation Tools:**  
-`Selenium WebDriver (Java)` • `Cypress` • `Playwright (JS/TS)` • `REST Assured` • `Appium`
+        @keyframes shimmer {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
 
-**🧩 Frameworks:**  
-`BDD with Cucumber` • `Page Object Model (POM)` • `Mocha` • `TestNG` • `JUnit`
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 60px 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
 
-**🔗 API Testing:**  
-`Postman` • `RESTClient` • `Swagger`
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+                padding: 40px 30px;
+                gap: 30px;
+            }
+        }
 
-**🧠 AI Testing:**  
-Exploring `AI agents`, `prompt engineering`, and `intelligent automation strategies`
+        .left-section h1 {
+            font-size: 3.5em;
+            font-weight: 800;
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            animation: fadeInDown 0.8s ease-out;
+        }
 
-**🔧 Build, CI/CD & DevOps:**  
-`Maven` • `Git` • `GitHub Actions` • `Jenkins` • `Docker`
+        .title {
+            font-size: 1.4em;
+            color: #93c5fd;
+            font-weight: 600;
+            margin-bottom: 20px;
+            animation: fadeInDown 0.8s ease-out 0.2s both;
+        }
 
-**🔤 Languages & Data:**  
-`JavaScript` • `TypeScript` • `Java` • `Python (basic)` • `JSON` • `YAML` • `XML`
+        .tagline {
+            font-size: 1.1em;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            animation: fadeInDown 0.8s ease-out 0.4s both;
+        }
 
----
+        .highlight-box {
+            background: rgba(59, 130, 246, 0.15);
+            border-left: 4px solid #60a5fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            animation: fadeInLeft 0.8s ease-out 0.6s both;
+        }
 
-### 🧠 Currently Practicing
+        .highlight-box p {
+            color: #e0e7ff;
+            font-size: 0.95em;
+            font-style: italic;
+        }
 
-- 🧪 Deep-diving into **Playwright with JavaScript/TypeScript**
-- 🤖 Integrating **AI agents** into intelligent test flows
-- 🏗 Building **modular and scalable** test automation frameworks
-- 🌐 Applying **real-world API testing best practices** in projects
+        .tech-section {
+            animation: fadeInUp 0.8s ease-out 0.8s both;
+        }
 
----
+        .tech-label {
+            color: #a78bfa;
+            font-size: 0.9em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
 
-### 📌 About Me
+        .tech-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
 
-I'm a passionate and result-driven **SDET** with hands-on experience in designing, developing, and maintaining robust automation frameworks for **UI and API testing**.  
-I love solving complex testing challenges and continuously evolve with emerging tools, patterns, and technologies.
+        .tech-item {
+            background: rgba(99, 102, 241, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.4);
+            color: #c4b5fd;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
 
-I believe quality is not just a checkpoint — it's a mindset.  
-Always open to collaboration, innovation, and continuous learning.
+        .tech-item:hover {
+            background: rgba(139, 92, 246, 0.3);
+            border-color: rgba(139, 92, 246, 0.8);
+            transform: translateY(-2px);
+        }
 
----
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            animation: fadeInRight 0.8s ease-out 0.4s both;
+        }
 
-### 🤝 Let's Collaborate
+        .stats-box {
+            background: rgba(30, 64, 175, 0.5);
+            border: 1px solid rgba(59, 130, 246, 0.4);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
 
-💬 I'm open to discussions around:
-- 🚀 Automation frameworks
-- 🤖 AI-driven testing
-- 🔧 Open-source QA tools
-- 📘 Writing and sharing technical content
+        .stats-box:hover {
+            background: rgba(30, 64, 175, 0.7);
+            border-color: rgba(59, 130, 246, 0.8);
+            transform: translateY(-4px);
+        }
 
-📫 [Connect on LinkedIn](https://www.linkedin.com/in/saran-kumar-a69)
+        .stats-number {
+            font-size: 2.2em;
+            font-weight: 800;
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
 
----
+        .stats-label {
+            color: #cbd5e1;
+            font-size: 0.95em;
+            font-weight: 500;
+        }
 
-### 📂 Featured Projects
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
 
-Here are some of my key automation and testing frameworks:
+        .btn {
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+        }
 
-- 🔹 **[Yatra-Lowest-Fare-Automation-using-Selenium-Java](https://github.com/saran-kumar-a69/Yatra-Lowest-Fare-Automation-using-Selenium-Java)** – Real-world fare comparison using Selenium & Java  
-- 🔹 **[AI-Augmented-Cypress-E2E-Framework-Powered-by-Copilot-GPT-4](https://github.com/saran-kumar-a69/AI-Augmented-Cypress-E2E-Framework-Powered-by-Copilot-GPT-4)** – AI-powered Cypress automation framework  
-- 🔹 **[ClearTrip-Flight-Search-Cypress-Visual-Regression-Testing](https://github.com/saran-kumar-a69/ClearTrip-Flight-Search-Cypress-Visual-Regression-Testing)** – E2E Cypress framework with visual testing  
-- 🔹 **[Playwright-Automation-Framework-JavaScript](https://github.com/saran-kumar-a69/Playwright-Automation-Framework-JavaScript)** – Scalable Playwright framework  
-- 🔹 **[Cypress-API-Testing-Automation-with-Intercept-OAuth-Schema-Validation](https://github.com/saran-kumar-a69/Cypress-API-Testing-Automation-with-Intercept-OAuth-Schema-Validation)** – Advanced API testing in Cypress  
-- 🔹 **[Selenium-Hybrid-Test-Automation-Framework-POM-TestNG-Selenium-Grid-Extent-Reports-Docker](https://github.com/saran-kumar-a69/Selenium-Hybrid-Test-Automation-Framework-POM-TestNG-Selenium-Grid-Extent-Reports-Docker)** – Selenium framework with Docker & Grid  
-- 🔹 **[Cypress-E2E](https://github.com/saran-kumar-a69/Cypress-E2E)** – Cypress test automation with GitHub Actions  
-- 🔹 **[AI-Powered-Automation-using-Playwright-MCP-GitHub-Copilot](https://github.com/saran-kumar-a69/AI-Powered-Automation-using-Playwright-MCP-GitHub-Copilot)** – Prompt-driven intelligent testing
+        .btn-primary {
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            color: white;
+        }
 
-...and many more! Explore [all my repositories](https://github.com/saran-kumar-a69?tab=repositories) 🚀
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+        }
 
----
+        .btn-secondary {
+            background: transparent;
+            color: #60a5fa;
+            border: 2px solid #60a5fa;
+        }
 
-### 📈 GitHub Stats
+        .btn-secondary:hover {
+            background: rgba(59, 130, 246, 0.1);
+            transform: translateY(-2px);
+        }
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saran-kumar-a69&show_icons=true&theme=github_dark" alt="Saran's GitHub Stats" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=saran-kumar-a69&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="animated-bg"></div>
+        <div class="content">
+            <div class="left-section">
+                <h1>Saran Kumar</h1>
+                <div class="title">🚀 Senior SDET | Test Automation Engineer</div>
+                <p class="tagline">Crafting intelligent, scalable, and robust test automation solutions that ensure quality at every level.</p>
+                
+                <div class="highlight-box">
+                    <p>"Quality is not just a checkpoint — it's a mindset"</p>
+                </div>
+
+                <div class="tech-section">
+                    <div class="tech-label">🧪 Expertise</div>
+                    <div class="tech-items">
+                        <div class="tech-item">Selenium</div>
+                        <div class="tech-item">Cypress</div>
+                        <div class="tech-item">Playwright</div>
+                        <div class="tech-item">REST Assured</div>
+                        <div class="tech-item">BDD/Cucumber</div>
+                        <div class="tech-item">AI Automation</div>
+                    </div>
+                </div>
+
+                <div class="tech-section">
+                    <div class="tech-label">💻 Stack</div>
+                    <div class="tech-items">
+                        <div class="tech-item">Java</div>
+                        <div class="tech-item">JavaScript/TypeScript</div>
+                        <div class="tech-item">Python</div>
+                        <div class="tech-item">Docker</div>
+                        <div class="tech-item">Jenkins</div>
+                        <div class="tech-item">GitHub Actions</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="stats-box">
+                    <div class="stats-number">10+</div>
+                    <div class="stats-label">Featured Frameworks</div>
+                </div>
+
+                <div class="stats-box">
+                    <div class="stats-number">🤖</div>
+                    <div class="stats-label">AI-Powered Automation Focus</div>
+                </div>
+
+                <div class="stats-box">
+                    <div class="stats-number">∞</div>
+                    <div class="stats-label">Continuous Learning Mindset</div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">📂 Explore Projects</a>
+                    <a href="#" class="btn btn-secondary">💬 Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
